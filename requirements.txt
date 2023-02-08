@@ -1,3 +1,5 @@
 streamlit-chat
-torch torchvision torchaudio
+torch 
+torchvision 
+torchaudio
 nltk
