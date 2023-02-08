@@ -4,7 +4,7 @@ from nltk.stem.porter import PorterStemmer
 
 # package with a pretrained tokenizer, may need to uncomment the following
 # to download for the first time
-# nltk.download('punkt')
+nltk.download('punkt')
 
 stemmer = PorterStemmer()
 
