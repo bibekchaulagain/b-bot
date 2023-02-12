@@ -1,6 +1,6 @@
-streamlit-chat
-torch 
-torchvision 
-torchaudio
 nltk
 pyspellchecker
+streamlit-chat
+torch
+torchaudio
+torchvision
