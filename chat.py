@@ -26,7 +26,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "B-BOT"
+bot_name = "B-Bot"
 # print(
 #     "Hello, I am B-BOT, personal ChatBOT of Mr. Bibek. Let's chat! (type 'quit' or 'q' to exit)"  # NoQA
 # )
@@ -58,7 +58,7 @@ def generate_response(sentence):
                 return f"{bot_name}: {random.choice(intent['responses'])}"
     else:
         return (
-            f"{bot_name}: Sorry, I do not understand... Can you be more "
+            f"{bot_name}: Sorry, I didn't understand... Can you be more "
             "specific on your question? You can ask about Bibek's skillset, "
             "experiences, portfolio, education, achievements "
             "and KAIST activities."
